@@ -1,0 +1,71 @@
+installer node v8 pour avoir npm
+utiliser vscode
+Prettier pour formater le code
+installer le plugin EsLint de Vs Code
+installer le plugin chrome Redux Devtool
+
+src/index.html
+src/index.js
+
+configurer webpack
+
+installer babel
+
+babel compile du JSX vers JS
+    permet aussi de transpiler du JS moderne pour que ce soit executable par tous les navigateurs
+
+ajouter la config babel dans package.json
+
+ajouter la section npm script dans package.json
+
+configurer elint dans package.json
+
+
+
+
+express
+.editorconfig
+Prettier
+localtunnel: npm install localtunnel
+    lt  --port 3000
+
+npm start npm prestart
+npm start = npm run start
+
+npm install -D webpack
+npx webpack --help
+
+
+
+
+
+
+npm init
+npm install react react-dom prop-types redux react-redux redux-thunk react-router react-router-dom --save
+npm install bootstrap --save
+
+npm install -D webpack webpack-dev-server webpack-cli clean-webpack-plugin webpack-md5-hash uglifyjs-webpack-plugin extract-text-webpack-plugin webpack-merge webpack-bundle-analyzer webpack-stats-graph // install graphviz
+npm install -D html-webpack-plugin
+npm install -D mini-css-extract-plugin
+npm install -D json-server json-schema-faker
+npm install -D redux-immutable-state-invariant redux-mock-store
+
+npm install -D css-loader postcss-loader cssnano style-loader sass-loader node-sass file-loader
+npm install -D @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-react babel-loader babel-eslint babel-preset-react-app
+//npm install -D @babel/register // allow es6+ to be used on nodejs files
+npm install -D eslint eslint-loader eslint-plugin-import eslint-plugin-react
+
+npm install -D npm-run-all nodemon
+
+
+//html-webpack-plugin 
+
+npx webpack --mode development ./src/index.js --output ./src/bundle.js
+npx webpack --watch --mode development ./src/index.js --output ./src/bundle.js
+npx webpack-dev-server --open --watch --mode development --entry ./src/index.js --output ./src/bundle.js
+
+npm run build
+npm run build -- --watch
+
+npx webpack --config=webpack.config.dev.js
+npx webpack-dev-server --open --config=webpack.config.dev.js
