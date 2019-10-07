@@ -82,7 +82,7 @@
 			</plugin>
 			<!-- optional: where to download node and npm from. Defaults to https://nodejs.org/dist/ -->
 			<!--downloadRoot>http://myproxy.example.org/nodejs/</downloadRoot-->
-			<plugin>
+			<!--plugin>
 				<groupId>com.github.eirslett</groupId>
 				<artifactId>frontend-maven-plugin</artifactId>
 				<version>1.7.5</version>
@@ -122,7 +122,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin-->
 			<!--plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>exec-maven-plugin</artifactId>
@@ -160,7 +160,7 @@
 					</execution>
 				</executions>
 			</plugin-->
-			<plugin>
+			<!--plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>3.0.1</version>
@@ -206,7 +206,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin-->
 		</plugins>
 	</build>
 
